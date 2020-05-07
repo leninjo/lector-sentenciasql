@@ -16,7 +16,7 @@ cadena = Entry(ventana, width=38, borderwidth=0, bg="#3E5C76", fg="#F0EBD8", fon
 cadena.grid(column=0, columnspan=4, row=1, padx=18)
 
 def leer():
-      res = cadena.get().lower().split(" ")
+      res = cadena.get().upper().split(" ")
       list = Listbox(ventana, borderwidth=0, bg="#3E5C76", fg="#F0EBD8", font=("Nunito", 14))
 
       for i in res: 
